@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+ <title>楚天佳的博客</title>
+<!-- <embed src="music/MissYou.mp3" hidden="true" autostart="true" loop="true"> -->
+	<audio autoplay="autoplay" loop="loop" preload="auto" src="music/Fade.mp3">
+	</audio>
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		  $("#hide1").click(function(){
+		    $(".H1 p").hide(2000);
+		  });
+		  $("#show1").click(function(){
+		    $(".H1 p").show(2000);
+		  });
+		});
+		$(document).ready(function(){
+			  $("#hide1").click(function(){
+			    $(".L1").show(2000);
+			  });
+			  $("#show1").click(function(){
+			    $(".L1").hide(2000);
+			  });
+			});
+		$(document).ready(function(){
+			  $("#hide2").click(function(){
+			    $(".H2 p").hide(2000);
+			  });
+			  $("#show2").click(function(){
+			    $(".H2 p").show(2000);
+			  });
+			});
+		$(document).ready(function(){
+			  $("#hide2").click(function(){
+			    $(".L2").show(2000);
+			  });
+			  $("#show2").click(function(){
+			    $(".L2").hide(2000);
+			  });
+			});
+	</script>
+	<style>
+	@-webkit-keyframes rotation {
+	    from {-webkit-transform: rotate(0deg);
+	}to {
+	    -webkit-transform: rotate(360deg);
+	}}
+	
+	.avatar a {
+		/* border-radius: 200px; */
+	    -webkit-transform: rotate(360deg);
+	    animation: rotation 8s linear infinite;
+	    -moz-animation: rotation 8s linear infinite;
+	    -webkit-animation: rotation 8s linear infinite;
+	    -o-animation: rotation 8s linear infinite;
+	}
+	</style>
+
+</head>
+<body>
+<header>
+ <nav id="nav">
+   <ul>
+    <li><a href="#">PersonalShow</a></li>
+   </ul>
+  <script src="js/silder.js"></script><!--获取当前页导航 高亮显示标题-->
+ </nav>
+ </header>
+ <div class="mainContent">
+    <aside>
+      <div class="avatar">
+        <a href="#"><span>楚天佳</span></a>
+      </div>
+      <section class="topspaceinfo">
+        <h1>欲戴王冠，必承其重</h1>
+        <p>欲戴王冠，必承其重，欲握玫瑰，必承其伤，吾唯心有猛虎细嗅蔷薇.....</p>
+      </section>
+      <div class="userinfo"> 
+        <!-- <p class="q-fans"> 粉丝：<a href="#" target="_blank">167</a></p> 
+        <p class="btns"><a href="#" target="_blank" >私信</a><a href="#" target="_blank">相册</a><a href="#" target="_blank">存档</a></p>  -->  
+      </div>
+      
+      <section class="newpic">
+         <h2>最新照片</h2>
+         <ul>
+           <li><img src="images/01.jpg"></li>
+           <li><img src="images/02.jpg"></li>
+           <li><img src="images/03.jpg"></li>
+           <li><img src="images/04.jpg"></li>
+           <li><img src="images/05.jpg"></li>
+           <li><img src="images/06.jpg"></li>
+           <li><img src="images/07.jpg"></li>
+           <li><img src="images/08.jpg"></li>
+         </ul>
+      </section>
+      
+      <section class="taglist">
+         <h2>全部标签</h2>
+         <ul>
+         	<li><a href="#">study</a></li>
+         	<li><a href="#">小清新</a></li>
+         	<li><a href="#">励志文</a></li>
+           	<li><a href="#">青空之上</a></li>
+        </ul>
+      </section>
+    </aside>
+    <div class="blogitem">
+      <article>
+        <h2 class="title"><a href="#">简介</a></h2>
+        <ul class="text">
+        <p>我，一个梦想着终有一天能成为技术大牛的90后，
+        	生于陕西，工作在哪？(我也很想知道)，
+        	预期职业web开发攻城狮（苦逼码农），
+        	平时习惯用蹩脚的文字记录一下生活中的点滴。
+        	闲暇时会在GitHub上弄一些小项目，
+        </p>
+        </ul>
+        <div class="textfoot">
+        </div>
+      </article>
+      <article>
+        <h2 class="title"><a href="#">欲戴王冠，必承其重</a></h2>
+        <ul class="text">
+          <p>《道德经》有文:“是以圣人云 ：受国之垢，是谓社稷主；受国不祥，是为天下王。”
+          	含义：“若能承受起整个国家对他的垢病，就一定是这个国家的君主；
+          	能担负起天下所有的苦难和不幸，则必是天下的王”。</p>
+          <p class="textimg"><img src="images/timg5.jpg"></p>
+          <br>
+          <p style="text-align:right;" class="L1">...</p>
+          <div class="H1">
+	          <p style="display:none">人的眼晴能看的很远，但却很难看见自己的眉毛。</p>
+	          <p style="display:none">所以有时我们所能看到别人的都是光鲜的一面，从来不知道别人心里的苦。</p>
+	          <p style="display:none">时常都以为自己生不逢时，命运不济，总认为社会多么不公平，</p>
+	          <p style="display:none">总觉得别人都能怎样怎样，我也能怎样怎样。</p>
+	          <p style="display:none">但是，从来都没有过反求诸己。这是为什么呢?</p>
+	          <p style="display:none">所有的成功其实都是一点点艰辛，一滴滴汗水得来的。</p>
+	          <p style="display:none">在这个世界上从来没有不劳而获的。</p>
+	          <p style="display:none">当你享受这一份光鲜时，其实必然忍受着与光鲜同重的煎熬。</p>
+	          <p style="display:none">就如站在阳光下，背后必有阴影。</p>
+	          <p style="display:none">所有的光环背后都有深重的责任，所有荣誉之前都有努力的坚守。</p>
+	          <p style="display:none">我一直坚信，通往梦想的路上，总有一道高墙，但它只阻挡不够热爱的人。</p>
+	          <p style="display:none">因为真正愿意追逐梦想的人，不会惧怕任何艰难险阻。</p>
+	          <p style="display:none">欲达高峰，必忍其痛；</p>
+	          <p style="display:none">欲予动容，必入其中；</p>
+	          <p style="display:none">欲想成功，必有其梦；</p>
+	          <p style="display:none">欲戴王冠，必承其重！</p>
+	          <p style="display:none">吾唯心有猛虎细嗅蔷薇......</p>
+	       </div>
+        </ul>
+        <div class="textfoot">
+          <!-- <a href="#">阅读全文</a> -->
+          <a id="show1" Style="cursor:pointer;">阅读全文</a>
+          <a id="hide1" Style="cursor:pointer;">收起</a>
+          <a Style="cursor:pointer;">评论</a>
+          <!-- <a href="#">评论</a> -->
+          <p>(改编自网文)</p>
+        </div>
+      </article> 
+      <article>
+        <h2 class="title"><a href="#">岁月留痕——我的2015</a></h2>
+        <ul class="text">
+          <b><p>A面——岁月留痕之岁月静好，负重前行</p></b>
+          <p>曾以为，岁月安好，现世安稳，是理所当然。但那只是还没有付出成长的代价。</p>
+          <p>后来才懂，哪有什么岁月静好，只是有人为你负重前行。</p>
+          <br>
+          <p class="textimg"><img src="images/fish.jpg"></p>
+          <br>
+          <p style="text-align:right;" class="L2">...</p>
+          <div class="H2">
+	          <p style="display:none">其实，成长从来不是自愿的，而是在一种情境下的不得不，我们只能接受，</p>
+	          <p style="display:none">唯一能决定的就是以一种什么样的态度来面对生命中那些难熬的时刻。</p>
+	          <p style="display:none">那些真正让你成长的事情，</p>
+	          <p style="display:none">从来，</p>
+	          <p style="display:none">从来，</p>
+	          <p style="display:none">从来都不会让你特别好过！</p>
+	          <p style="display:none">但最痛的，却从不是你。</p>
+	          <p style="display:none">他佝偻的身影，掩饰泪水，强忍伤痛。</p>
+	          <p style="display:none">却依然要负重前行。</p>
+	          <p style="display:none">人的一生，是一个攀爬向上的过程。登高走过的每一步路，都很苦很难。</p>
+	          <p style="display:none">但那些苦难像是一道骇人的疤，</p>
+	          <p style="display:none">当你极力掩饰时，看似能拥有自尊与自信，但其实不见阳光的疤是会腐烂的。</p>
+	          <p style="display:none">只有选择坦坦荡荡的，勇敢面对才能不累日后。</p>
+	          <p style="display:none">后来笑着流泪明白：“磨难是化了妆的幸福”。</p>
+	          <p style="display:none">―终―</p>
+	          <p class="textimg" style="display:none"><img src="images/text01.jpg"></p>
+	          <br><br><br><br><br><br>
+	          <h3><p style="display:none">分享：</p></h3>
+	          <div style="text-align:left;margin-left: 100px;">
+		          <p style="display:none">所谓父女母子一场，</p>
+		          <p style="display:none">只不过意味着，</p>
+		          <p style="display:none">你和他的缘分就是：</p>
+		          <p style="display:none">今生今世不断地在目送他的背影渐行渐远。</p>
+		          <p style="display:none">你站立在小路的这一端，</p>
+		          <p style="display:none">看着他逐渐消失在小路转弯的地方，</p>
+		          <p style="display:none">而且，</p>
+		          <p style="display:none">他用背影默默告诉你：</p>
+		          <p style="display:none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不必追。</p>
+		          <p style="display:none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ——龙应台《目送》</p>
+		          <p class="textimg" style="display:none"><img src="images/older.jpg"></p>
+	          </div>
+		         <h3><p style="display:none">PS：</p></h3>
+		         <p style="display:none">最真实的孝：</p>
+		         <p style="display:none"><b>你陪我长大，我伴你终老。</b></p>
+         </div>
+        </ul>
+       
+        <div class="textfoot">
+          <a id="show2" Style="cursor:pointer;">阅读全文</a>
+          <a id="hide2" Style="cursor:pointer;">收起</a>
+          <a Style="cursor:pointer;">评论</a>
+          <p>(改编自网文)</p>
+        </div>
+      </article>
+     <!--  <div class="pages"><span>1</span><a href="#" hidefocus="">2</a><a href="#" hidefocus="">3</a><a href="#" class="next">下一页&gt;&gt;</a></div> -->
+    </div>
+ </div>
+<footer>
+   <div class="footavatar">
+     <img src="images/photo.jpg" class="footphoto">
+     <ul class="footinfo">
+       <p class="fname"><a href="#" >楚天佳</a>  </p>
+       <p class="finfo">性别：男 年龄：25岁</p>
+       <p>现居：陕西 西安</p></ul>
+   </div>
+   <section class="visitor">
+     <h2>最近访客</h2>
+      <ul>
+        <li><a href="#"><img src="images/s0.jpg"></a></li>
+        <li><a href="#"><img src="images/s1.jpg"></a></li>
+        <li><a href="#"><img src="images/s2.jpg"></a></li>
+        <li><a href="#"><img src="images/s3.jpg"></a></li>
+        <li><a href="#"><img src="images/s5.jpg"></a></li>
+        <li><a href="#"><img src="images/s6.jpg"></a></li>
+        <li><a href="#"><img src="images/s7.jpg"></a></li>
+        <li><a href="#"><img src="images/s8.jpg"></a></li>
+      </ul>
+   </section>
+   <div class="Copyright">
+     <ul>
+       <a href="#">帮助中心</a><a href="#">空间客服</a><a href="#">投诉中心</a><a href="/">空间协议</a>
+     </ul>
+     <p>Design by DanceSmile</p>
+     <p>来源：More Templates 楚天佳</p>
+   </div>
+ </footer>
+</body>
+</html>
